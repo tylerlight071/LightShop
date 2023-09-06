@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["plus.unsplash.com", "images.unsplash.com"], // Allow images from plus.unsplash.com
-    // You can add more domains as needed
+    domains: [
+      "imgs.search.brave.com",
+      "plus.unsplash.com",
+      "images.unsplash.com",
+      "lh3.googleusercontent.com",
+    ],
   },
   experimental: {
     serverActions: true,
